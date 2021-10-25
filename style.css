@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #eeeeee;
+  background-color: #eee;
   font-family: "Lato", sans-serif;
 }
 
@@ -111,7 +111,7 @@
 
 .footer {
   height: 80px;
-  background-color: #dddddd;
+  background-color: #ddd;
   display: flex;
   flex-direction: column;
   align-items: end;
