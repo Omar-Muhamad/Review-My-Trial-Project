@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +6,12 @@
     font-family: 'Lato', sans-serif;
 }
 
-.logo img{
+.logo img {
     max-width: 300px;
     margin-left: 20px;
 }
 
-.navBar{
+.navBar {
     position: sticky;
     font-weight: 400;
     width: 100%;
@@ -21,21 +21,21 @@
     padding: 20px ;
 }
 
-.navLinks{
+.navLinks {
     display: flex;
 }
 
-.navLinks li{
+.navLinks li {
     list-style-type: none;
     margin: auto 20px;
 }
 
-.navLinks li a{
+.navLinks li a {
     text-decoration: none;
     color: black;
 }
 
-.hero{
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,21 +43,21 @@
     margin-bottom: 30px;
 }
 
-#email{
+#email {
     width: 300px; 
     height: 30px;
     padding: 6px ;
     margin: 20px;
 }
 
-.btn{
+.btn {
     background-color: #f1c40f ;
     border: none;
     padding: 10px 30px ;
     font-weight: 900;
 }
 
-#features{
+#features {
     width: 95%;
     margin: 70px auto;
     display: flex;
@@ -66,22 +66,26 @@
     flex-direction: column;
 }
 
-.feature{
+.feature {
     display: flex;
 }
-.feature i{
+
+.feature i {
     margin:  35px;
     color: #ff8c00;
 }
-.feature div{
+
+.feature div {
     margin: 35px;
 }
-#howItWorks{
+
+#howItWorks {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
 }
-#prices{
+
+#prices {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -89,7 +93,8 @@
     max-width: 1000px;
 
 }
-.priceItem{
+
+.priceItem {
     height: 320px;
     border: 1px solid black;
     margin: 10px;
@@ -100,28 +105,34 @@
     align-items: center;
     flex-direction: column;
 }
-.priceItem p{
+
+.priceItem p {
     text-align: center;
 }
-.footer{
+
+.footer {
+    height: 80px;
     background-color: #dddddd ;
     display: flex;
     flex-direction: column;
     align-items: end;
-
+    justify-content: center;
 }   
 
-.footer ul{
-    background-color: #dddddd;
+.footer ul {
+    background: transparent;
     display: flex;
     justify-content: right;
     flex-direction: row;
 }
-.footer ul li{
+
+.footer ul li {
     margin: auto 15px;
     list-style-type: none
+
 }
 
-.footer ul li a{
+.footer ul li a {
     text-decoration: none;
+    color: black;
 }
